@@ -25,7 +25,7 @@ O sistema permite que clientes gerenciem contas correntes através de uma plataf
 | RF-03 | Exibir Menu de Acesso |
 | RF-04 | Cadastrar Conta |
 | RF-05 | Realizar Operação Financeira  |
-| RF-06 | Consultar Extrato | ✔️ Implementado |
+| RF-06 | Consultar Extrato |
 | RF-07 | Controlar Acesso e Segurança  |
 
 ---
