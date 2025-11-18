@@ -20,6 +20,7 @@ async function atualizarSaldo(idCliente) {
         contas.forEach(conta => {
             saldo += conta.saldo;
         });
+
     } catch (erro) {
         console.error("Erro:", erro);
         alert("Erro ao consultar contas.");
@@ -31,6 +32,7 @@ async function atualizarSaldo(idCliente) {
         maximumFractionDigits: 2
     });
     const texto = 'R$ ' + formatter.format(saldo);
-    $("#saldo").text(texto);
+    $("#saldo").text(saldo);
 
 }
+
