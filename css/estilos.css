@@ -13,12 +13,12 @@
 }
 
 header{
-	height: 6vh;
+	height: 10vh;
 	border-bottom: 3px solid black;
 }
 
 main{
-	height: 85vh;	
+	height: 80vh;	
 }
 
 footer{
