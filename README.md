@@ -1,11 +1,12 @@
 # 💰 Sistema Bancário — Exercício Avaliativo II
 
 Projeto desenvolvido para a disciplina **Desenvolvimento de Sistemas** do curso de **Engenharia de Computação – CEFET-MG / Unidade Timóteo**.  
-O objetivo é implementar as funcionalidades de um sistema bancário utilizando **HTML, CSS e JavaScript**, com integração a uma **API REST** para armazenamento dos dados na nuvem.
 
 ---
 
 ## 🎯 Objetivo do Sistema
+O objetivo é implementar as funcionalidades de um sistema bancário utilizando **HTML, CSS e JavaScript**, com integração a uma **API REST** para armazenamento dos dados na nuvem.
+
 O sistema permite que clientes gerenciem contas correntes através de uma plataforma web, oferecendo recursos essenciais de uma instituição bancária digital:
 
 - Cadastro e autenticação de clientes
