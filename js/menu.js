@@ -3,8 +3,9 @@ $(document).ready(function () {
         alert("Acesso negado.");
         window.location.href = "login.html";
     } else {
-        var cliente = JSON.parse(localStorage.getItem('clienteAutenticado'));
-        var primeiroNome = cliente.nome.substr(0, cliente.nome.indexOf(' '));
+        let cliente = JSON.parse(localStorage.getItem('clienteAutenticado'));
+        let partes = cliente.nome.split(' ');
+        let primeiroNome = partes[0];
         $("#nome").text(primeiroNome);
         atualizarSaldo(cliente.id);
     }
@@ -15,7 +16,7 @@ async function atualizarSaldo(idCliente) {
     let saldo = 0;
 
     try {
-        let resposta = await fetch("http://54.233.183.126:8888/api/contas/cliente/" + idCliente);
+        let resposta = await fetch("http://163.176.234.128:8888/api/contas/cliente/" + idCliente);
         let contas = await resposta.json();
         contas.forEach(conta => {
             saldo += conta.saldo;
